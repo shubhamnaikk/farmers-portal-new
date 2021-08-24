@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: white;
+    border-bottom: 2px solid #4c9a2a
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 100%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #4c9a2a;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #4c9a2a;
+    color: white;
+    border-radius:60px;
+    font-weight: 700;
+}
+
+
+.main{
+    background: url(lunchcopy1.jpg)no-repeat;
+    background-size: cover;
+    height:100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;  
+}
+.btn1{
+    height: 45px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color:#4c9a2a;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: #36940e;
+    transition: 0.5s;
+}
+.btn2{
+    height: 45px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #4c9a2a;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 60px;
+}
+.btn2:hover{
+    background-color: #36940e;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.apple{
+    background: linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(red.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+.btn3{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background:black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
